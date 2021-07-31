@@ -1,0 +1,9 @@
+name = "cf-worker-app"
+type = "javascript"
+account_id = "bd32d775e34905a0b08b3ddfd2fc7b87"
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
